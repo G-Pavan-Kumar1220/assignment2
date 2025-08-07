@@ -89,7 +89,7 @@ padding-right: 10px;
 .service_button:hover{
     box-shadow: #111212;
 }
-@media  screen and (max-width:320px) {
+@media  screen and (max-width:600px) and (min-width:320px) {
     nav{
     background-color: #cfcece;
     display: flex;
@@ -167,5 +167,6 @@ main{
 
 
 }
+
 
 
