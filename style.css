@@ -7,6 +7,9 @@ body{
    font-family: "Mozilla Text", sans-serif;
     height: 80vh;
 }
+body {
+    overflow-x: hidden;
+}
 nav{
     background-color: #fff;
     display: flex;
@@ -168,6 +171,7 @@ main{
 
 
 }
+
 
 
 
