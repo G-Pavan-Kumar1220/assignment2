@@ -5,6 +5,7 @@
 }
 body{
    font-family: "Mozilla Text", sans-serif;
+    height: 100vh;
 }
 nav{
     background-color: #fff;
@@ -167,6 +168,7 @@ main{
 
 
 }
+
 
 
 
