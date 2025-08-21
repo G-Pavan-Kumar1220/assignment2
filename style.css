@@ -48,17 +48,18 @@ main{
 }
 .container{
     display: flex;
+    width: 80%;
+    margin-left: 40px;
     align-items: center;
-    justify-content: space-between;
-    /* gap: 30px; */
-     width: 80%;
+    padding-left: 120px;
 }
 .left{
 padding-right: 10px;
-    width: 50%;
+    width: 65%;
 }
 .right{
-    width: 50%;
+    width: 35%;
+    margin-left: 120px;
 }
 .heading_p{
     font-size: 50px;
