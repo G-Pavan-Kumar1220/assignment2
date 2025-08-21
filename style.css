@@ -1,15 +1,19 @@
-*{
+* {
     padding: 0;
-    margin: 0 auto;
-    /* box-sizing: border-box; */
+    margin: 0;
+    box-sizing: border-box; /* Helps prevent overflow */
 }
-body{
-   font-family: "Mozilla Text", sans-serif;
-    height: 100vh;
-    width:auto;
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* 🚀 This removes both scrollbars */
 }
+
 body {
-    overflow-x: hidden;
+    font-family: "Mozilla Text", sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 nav{
     background-color: #fff;
@@ -171,6 +175,7 @@ main{
 
 
 }
+
 
 
 
